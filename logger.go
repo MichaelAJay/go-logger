@@ -41,7 +41,7 @@ func (l Level) String() string {
 // Field represents a key-value pair for structured logging
 type Field struct {
 	Key   string
-	Value interface{}
+	Value any
 }
 
 // Logger defines the interface for logging operations
